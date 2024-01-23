@@ -25,6 +25,6 @@ emacs 的性能不太好，所以用虎码官方的常用单字挂接码表转�
 
 可以使用pyim-dicts-manager，或：
 ```emacs-lisp
-(add-to-list pyim-dcits
+(add-to-list 'pyim-dicts
     '(:name "hmdz" :file "/path/to/hmdz.pyim"))
 ```
